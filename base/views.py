@@ -18,7 +18,7 @@ from django.contrib.auth.forms import UserCreationForm
 #     {'id':3,'name':'Frontend developers'},
 # ]
 
-
+# view for login page
 def loginPage(request):
     page = 'login'
     if request.user.is_authenticated:
